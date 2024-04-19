@@ -1,0 +1,65 @@
+.lavash{
+ padding-top: 40px;
+}
+.sectionItem{
+ 
+    padding:10px ;
+    margin: 40px 0;
+    width: 270px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(37, 37, 37, 0.636);
+  }
+  .sectionNextItem{
+    margin-left: auto;
+    margin-right: auto;
+ 
+    padding:10px ;
+    margin-top: 20px;
+    width: 270px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(37, 37, 37, 0.636);
+  }
+  .sectionItem:hover,.sectionNextItem:hover{
+    transform: scale(0.9);
+    transition: 0.03s;
+  }
+  .sectionSubtitle{
+    padding-top:10px;
+    font-family: "PublicSans",sans-serif;
+    font-size: 22px;
+    font-weight:0;
+    line-height: 28px;
+    letter-spacing: -0.4285714328289032px;
+    text-align: left;
+    
+  }
+  .sectionSubtext{
+    padding-top: 10px;
+    font-family: "PublicSans",sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    
+  }
+  .sectionNextTitle{
+    padding: 10px 0;
+    font-family: "PublicSans",sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 100;
+    letter-spacing: -0.15625px;
+    text-align: left;
+    
+  }
+  .lavashList{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .lavashWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }

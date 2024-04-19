@@ -1,0 +1,23 @@
+.branchContainer{
+    padding: 100px 20px;
+}
+.branchItem{
+    box-shadow: 1px 1px 1px 1px  rgba(66, 64, 64, 0.635);
+    border-radius: 8px;
+    padding: 40px 0;
+    display: flex;
+    margin-top: 50px;
+}
+.branchToplink{
+    margin-left: 30px;
+    color: black;
+    font-family: "Mulish",sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+.branchLink{
+    margin-left: 30px;
+    color: black;
+    font-family: "Mulish",sans-serif;
+    font-size: 16px;
+}

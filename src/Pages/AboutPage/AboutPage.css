@@ -1,0 +1,27 @@
+.aboutContainer{
+  padding: 100px 0;
+ 
+}
+.aboutBox{
+    box-shadow: 1px 1px 1px 1px rgba(142, 139, 139, 0.581);
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+.aboutTitle{
+    text-align: left;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.aboutText{
+    text-align: left;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+.aboutImg{
+    border-radius: 8px;
+ 
+}

@@ -1,0 +1,26 @@
+
+.homePageImg{
+    padding-top: 60px;
+}
+.headerList{
+    display: flex;
+    justify-content: space-between;
+
+}
+.links{
+    margin: 30px auto;
+    max-width: 1200px;
+    background: blueviolet;
+    padding: 30px;
+
+}
+.linksLink{
+    color: white;
+  margin-left: 35px;
+    font-family: "Mulish",sans-serif;
+}
+.linksLink:hover{
+color: blueviolet;
+background: white;
+padding: 9px;
+}

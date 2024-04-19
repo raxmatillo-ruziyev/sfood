@@ -1,0 +1,34 @@
+.contactContainer{
+    padding: 150px 0;
+   
+}
+.contactItem{
+    margin-top: 40px;
+    box-shadow: 1px 1px 1px 1px rgba(109, 108, 108, 0.633);
+    padding: 30px;
+    border-radius: 10px;
+}
+.contactTitle{
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 15px 0;
+}
+.contactNextTitle{
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 5px 0;
+
+}
+.contactWrap{
+    padding: 6px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactLink{
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+}
