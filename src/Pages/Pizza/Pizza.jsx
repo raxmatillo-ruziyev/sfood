@@ -140,7 +140,7 @@ function Pizza() {
             </ul>
             
          </div>
-      </div><br />
+      </div>
       <Footer/>
     </>
   )

@@ -85,7 +85,7 @@ function Lavash() {
           <Link className='navbarSublink' to="/Kirish">Buyurtma</Link>
           </ul>
         </li>
-        <li className='sectionNextItem'>
+        <li className='sectionItem'>
            <img src={lavash6} alt="" width={250} height={200} />
           <h2 className='sectionSubtitle'>Qo'ziqorin sousi bilan tuzlangan makaron</h2>
           <p className='sectionSubtext'>Ma'lumot: klassik go'shtli lavash, frantsuz kartoshkasi, qalampir</p>

@@ -30,18 +30,66 @@
     font-weight: 500;
     src: url('../fonts/mulish-v13-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-.navbar{
+  /* aguafina-script-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Aguafina Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/aguafina-script-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* alegreya-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/alegreya-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* alegreya-italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alegreya';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/alegreya-v35-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* alegreya-500italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alegreya';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/alegreya-v35-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* alegreya-600italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alegreya';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/alegreya-v35-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* alegreya-700italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alegreya';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/alegreya-v35-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* .navbar{
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 999;
+    background: white;
    
-}
+} */
 .navbarContainer{
     padding: 20px ;
-    background: white;
-    
+
 }
 .navbarList{
     display: flex;
@@ -58,11 +106,17 @@
     width: 170px;
 }
 .navbarToplink{
-    padding-top: 10px;
-    font-size: 26px;
-    font-family:"Mulish",sans-serif ;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Alegreya',sans-serif ;
     font-style: italic;
     display: inline;
+    font-weight: 500;
+    color:  rgba(250, 247, 245, 0.836);
+    background: blueviolet;
+    border-radius: 50%;
+    border: 2px solid rgba(250, 247, 245, 0.836);
+    
  
 }
 .navbarLink{
@@ -72,7 +126,7 @@
 }
 .navbarLink:hover{
     background: blueviolet;
-    padding: 10px;
+    padding: 15px;
     color: white;
 }
 #navbarIcon{
@@ -86,7 +140,7 @@
 }
 .navbarSublink{
     background: blueviolet;
-    padding: 10px;
+    padding: 15px;
     color: white;
     font-family: "Mulish",sans-serif;
 }
@@ -95,3 +149,159 @@
     color: blueviolet;
     border: 1px solid blueviolet;
 }
+.hamburger{
+    display: none;
+}
+.navbarTopItem{
+   padding-top: 10px;
+    }
+@media(max-width: 1200px){
+    .container{
+width: 1100px;
+    }
+    .navbarNextItem{
+        display: flex;
+        justify-content: space-between;
+        width: 450px;
+    }
+    }
+@media(max-width: 1100px){
+        .container{
+            width:900px;
+        }
+        .navbarNextItem{
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+        }
+        .navbarItem{
+            display: flex;
+            justify-content: space-between;
+            width: 150px;
+        }
+        }
+@media(max-width: 800px){
+    .container{
+        width:700px;
+    }
+.navbarNextItem{
+    display: none;
+}
+.navbarItem{
+display:none;
+}
+.hamburger{
+display: block;
+
+}
+           
+}  
+@media(max-width: 700px){
+.container{
+    width:600px;
+}
+    .navbarNextItem{
+        display: none;
+    }
+   .navbarItem{
+    display:none;
+   }
+   .hamburger{
+    display: block;
+            
+ }
+                       
+}  
+@media(max-width: 600px){
+    .container{
+        width:500px;
+    }
+.navbarNextItem{
+    display: none;
+}
+           .navbarItem{
+display:none;
+           }
+           .hamburger{
+display: block;
+
+           }
+           
+}  
+@media(max-width: 500px){
+    .container{
+        width:400px;
+    }
+    .navbarNextItem{
+display: none;
+    }
+   .navbarItem{
+    display:none;
+   }
+   .hamburger{
+    display: block;
+
+   }
+   .navbarToplink{
+    padding: 7px;
+    font-size: 16px;
+    font-family:'Alegreya',sans-serif ;
+    font-style: italic;
+    display: inline;
+    font-weight: 300;
+    color:  rgba(250, 247, 245, 0.836);
+    background: blueviolet;
+    border-radius: 50%;
+    border: 2px solid rgba(250, 247, 245, 0.836);
+    
+ 
+}
+
+   }  
+   @media(max-width: 400px){
+    .container{
+        width:300px;
+    }
+   .navbarNextItem{
+       display: none;
+   }
+  .navbarItem{
+   display:none;
+  }
+  .hamburger{
+   display: block;
+
+  }
+  .navbarToplink{
+    padding: 6px;
+    font-size: 16px;
+    font-family:'Alegreya',sans-serif ;
+    font-style: italic;
+    display: inline;
+    font-weight: 300;
+    color:  rgba(250, 247, 245, 0.836);
+    background: blueviolet;
+    border-radius: 50%;
+    border: 2px solid rgba(250, 247, 245, 0.836);
+    
+ 
+}
+  
+   }
+   @media(max-width: 300px){
+    .container{
+        width:100%;
+    }
+            .navbarNextItem{
+                display: none;
+            }
+           .navbarItem{
+            display:none;
+           }
+           .hamburger{
+            display: block;
+
+           }
+           
+            }  
+

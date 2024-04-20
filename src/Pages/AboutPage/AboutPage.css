@@ -1,5 +1,5 @@
 .aboutContainer{
-  padding: 100px 0;
+  padding: 100px 10px;
  
 }
 .aboutBox{
@@ -23,5 +23,189 @@
 }
 .aboutImg{
     border-radius: 8px;
+    width: 1150px;
+    height: 500px;
  
+}
+@media(max-width: 1200px){
+.container{
+width:1100px;
+}
+.aboutImg{
+    border-radius: 8px;
+    width: 1050px;
+    height: 500px;
+ 
+}
+   
+}
+@media(max-width: 1100px){
+.container{
+width:1000px;
+}
+.aboutImg{
+    border-radius: 8px;
+    width: 950px;
+    height: 500px;
+ 
+}.aboutText{
+    text-align: left;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+   
+}
+@media(max-width: 1000px){
+.container{
+width:900px;
+}
+  
+.aboutImg{
+    border-radius: 8px;
+    width: 850px;
+    height: 450px;
+ 
+}
+.aboutText{
+    text-align: left;
+    padding: 19px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+}
+@media(max-width:900px){
+.container{
+width:800px;
+}
+.aboutImg{
+    border-radius: 8px;
+    width: 750px;
+    height: 400px;
+ 
+}
+.aboutText{
+    text-align: left;
+    padding: 18px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+   
+}
+@media(max-width: 800px){
+.container{
+width:700px;
+}
+.aboutImg{
+    border-radius: 8px;
+    width: 650px;
+    height: 350px;
+ 
+}
+.aboutText{
+    text-align: left;
+    padding: 17px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+   
+}
+@media(max-width: 700px){
+.container{
+width:600px;
+}
+.aboutImg{
+    border-radius: 8px;
+    width: 550px;
+    height: 300px;
+ 
+}
+.aboutText{
+    text-align: left;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+   
+}
+@media(max-width: 600px){
+.container{
+width:500px;
+}
+.aboutImg{
+    border-radius: 8px;
+    width: 450px;
+    height: 250px;
+ 
+}
+.aboutText{
+    text-align: left;
+    padding: 14px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+   
+}
+@media(max-width: 500px){
+.container{
+width:400px;
+}
+  
+.aboutImg{
+    border-radius: 8px;
+    width: 350px;
+    height: 200px;
+ 
+}
+.aboutText{
+    text-align: left;
+    padding: 13px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+}
+@media(max-width: 400px){
+.container{
+width:300px;
+}
+  
+.aboutImg{
+    border-radius: 8px;
+    width: 260px;
+    height: 180px;
+ 
+}
+.aboutText{
+    text-align: left;
+    padding: 12px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+}
+@media(max-width: 300px){
+.container{
+width:100%;
+}
+.aboutImg{
+    border-radius: 8px;
+    width: 95%;
+    height: 180px;
+ 
+}
+.aboutText{
+    text-align: left;
+    padding: 11px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+   
 }

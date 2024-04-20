@@ -1,5 +1,5 @@
 .branchContainer{
-    padding: 100px 20px;
+    padding:  20px;
 }
 .branchItem{
     box-shadow: 1px 1px 1px 1px  rgba(66, 64, 64, 0.635);
@@ -9,15 +9,218 @@
     margin-top: 50px;
 }
 .branchToplink{
-    margin-left: 30px;
     color: black;
     font-family: "Mulish",sans-serif;
     font-size: 32px;
     font-weight: 200;
 }
 .branchLink{
-    margin-left: 30px;
     color: black;
     font-family: "Mulish",sans-serif;
     font-size: 16px;
 }
+.branchBox{
+    padding: 20px ;
+    width: 700px;
+    display: flex;
+ justify-content: space-between;
+
+}
+
+@media(max-width: 1100px){
+    .container{
+    width:1000;
+    }
+    .branchToplink{
+
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 32px;
+        font-weight: 200;
+    }
+    .branchLink{
+
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 16px;
+    }
+       
+    }
+ @media(max-width: 1000px){
+    .container{
+    width:900;
+    }
+    .branchToplink{
+
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 31px;
+        font-weight: 200;
+    }
+    .branchLink{
+
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 15px;
+    }
+    }
+ @media(max-width: 900px){
+    .container{
+    width:800;
+    }
+    .branchToplink{
+
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .branchLink{
+
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 14px;
+    }
+    
+   
+    }
+ @media(max-width: 800px){
+    .container{
+    width:700;
+    }
+    .branchToplink{
+
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 29px;
+        font-weight: 200;
+    }
+    .branchBox{
+        padding: 20px ;
+        width: 600px;
+        display: flex;
+     justify-content: space-between;
+    
+    }
+    .branchLink{
+
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 14px;
+    }
+       
+    }
+ @media(max-width: 700px){
+    .container{
+    width:600;
+    }
+      
+    .branchToplink{
+
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size:27px;
+        font-weight: 200;
+    }
+    .branchLink{
+
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 13px;
+    }
+    .branchBox{
+        padding: 16px ;
+        width: 500px;
+        display: flex;
+     justify-content: space-between;
+    
+    }
+    }
+ @media(max-width: 600px){
+    .container{
+    width:500;
+    }
+    .branchToplink{
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .branchLink{
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 13px;
+    }
+    .branchBox{
+        padding: 14px ;
+        width: 450px;
+        display: flex;
+     justify-content: space-between;
+    
+    }
+       
+    }
+ @media(max-width: 500px){
+    .container{
+    width:400;
+    }
+    .branchToplink{
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+    }
+    .branchLink{
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 10px;
+    }
+    .branchBox{
+        padding: 12px ;
+        width: 360px;
+        display: flex;
+     justify-content: space-between;
+    
+    }
+       
+    }
+ @media(max-width: 400px){
+    .container{
+    width:300;
+    }
+    .branchToplink{
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .branchLink{
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 7px;
+    }
+    .branchBox{
+        width: 230px;
+        display: flex;
+     justify-content: space-between;
+    
+    }
+       
+    }
+ @media(max-width: 300px){
+    .container{
+    width:100%;
+    }
+    .branchToplink{
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .branchLink{
+        color: black;
+        font-family: "Mulish",sans-serif;
+        font-size: 6px;
+    }
+       
+    }

@@ -14,7 +14,7 @@ function Footer() {
             <Link className='footerLink' to="/About">Biz haqimizda</Link><br /><br />
             <Link className='footerLink' to="/Contact">Kontaktlar</Link>
      </li>
-     <li>
+     <li className='footerNextItem'>
         <h1 className='footerTitle'>bizga qo'shiling</h1>
          <Link className='footerSublink' to='t.me/ruziyev_raxmatillo'><i class='fa fa-telegram'></i></Link>
          <Link className='footerSublink'  to='https://www.instagram.com/'><i class='fa fa-instagram'></i></Link>
@@ -29,7 +29,7 @@ function Footer() {
     <hr className='footerHr' />
     <div className='footerBox'>
       <Link className='footerLink'>© 2020–2022, IT-TIME MChJ, rasmiy veb-sayt</Link>
-      <h2 className='footerNextTitle'>Raxmatillo Ruziyev tomonidan ishlab chiqilgan</h2>
+      <h2 className='footerNextTitle'> Developed by  Raxmatillo Ruziyev </h2>
     </div>
    </div>
    </div>
