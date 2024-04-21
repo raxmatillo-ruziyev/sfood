@@ -22,10 +22,10 @@ function Burger() {
    <div className='container headerContainer'>
    <img className='homePageImg' src={headerImg} alt="" width={1200} height={600} />
    <ul className='headerList'>
-    <li className='headerItem'><img className='homePageImg' src={headerImg} alt="" width={290} height={250} /></li>
+    {/* <li className='headerItem'><img className='homePageImg' src={headerImg} alt="" width={290} height={250} /></li>
     <li className='headerItem'><img className='homePageImg' src={headerImg2} alt="" width={290} height={250} /></li>
     <li className='headerItem'><img className='homePageImg' src={headerImg3} alt="" width={290} height={250} /></li>
-    <li className='headerItem'><img className='homePageImg' src={headerImg} alt="" width={290} height={250} /></li>
+    <li className='headerItem'><img className='homePageImg' src={headerImg} alt="" width={290} height={250} /></li> */}
    </ul>
 </div>
 </div>

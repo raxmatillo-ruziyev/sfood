@@ -10,7 +10,7 @@ import Navbar from '../../Copmonents/Navbar/Navbar'
 import Footer from '../../Copmonents/Footer/Footer'
 import  headerImg from './HomePage.img/headerImg.jpeg'
 import  headerImg2 from './HomePage.img/headerImg2.jpeg'
-import  headerImg3 from './HomePage.img/headerImg3.jpeg'    
+import  headerImg3 from './HomePage.img/headerImg3.jpeg'
 
 function Desert() {
 
@@ -27,10 +27,10 @@ function Desert() {
        <div className='container headerContainer'>
        <img className='homePageImg' src={headerImg} alt="" width={1200} height={600} />
        <ul className='headerList'>
-       <li className='headerItem'><img className='homePageImg' src={headerImg} alt="" width={290} height={250} /></li>
+       {/* <li className='headerItem'><img className='homePageImg' src={headerImg} alt="" width={290} height={250} /></li>
        <li className='headerItem'><img className='homePageImg' src={headerImg2} alt="" width={290} height={250} /></li>
        <li className='headerItem'><img className='homePageImg' src={headerImg3} alt="" width={290} height={250} /></li>
-       <li className='headerItem'><img className='homePageImg' src={headerImg} alt="" width={290} height={250} /></li>
+       <li className='headerItem'><img className='homePageImg' src={headerImg} alt="" width={290} height={250} /></li> */}
        </ul>
        </div>
        </div>
